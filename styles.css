@@ -11,6 +11,10 @@
 h2 {
   scroll-margin-top: 159px;
 }
+
+.image {
+  max-width: 100%;
+}
 .div0 {
   position: sticky;
   top: 0;
@@ -99,12 +103,21 @@ li a:hover{
   font-size: 28px;
 }
 
-@media (max-width: 500px){
+@media (max-width: 800px){
   .grid {
     display: grid;
     grid-template-columns: repeat(2,1fr);
   }
   #navbar {
     display: none;
+  }
+  .logo {
+    max-width: 75%;
+  }
+  h2{
+    font-size: 24px;
+  }
+  p {
+    font-size: 20px;
   }
 }
